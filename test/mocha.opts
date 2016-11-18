@@ -1,0 +1,2 @@
+--ui tdd
+--compilers jsx:babel-register

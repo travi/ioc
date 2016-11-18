@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "scripts": {
     "lint:js": "eslint .",
-    "test": "run-s lint:*",
+    "tests:unit": "mocha --recursive test/unit/",
+    "test": "run-s lint:* tests:*",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test"
   },
@@ -23,10 +24,15 @@
   },
   "homepage": "https://github.com/travi/ioc#readme",
   "devDependencies": {
+    "@travi/any": "0.7.0",
     "@travi/eslint-config-travi": "0.3.0",
+    "babel-cli": "6.18.0",
+    "babel-preset-es2015-node": "6.1.1",
+    "chai": "3.5.0",
     "cz-conventional-changelog": "1.2.0",
     "eslint": "3.10.2",
     "husky": "0.11.9",
+    "mocha": "3.1.2",
     "npm-run-all": "3.1.1",
     "validate-commit-msg": "2.8.2"
   },
