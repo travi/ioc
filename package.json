@@ -6,7 +6,8 @@
   "scripts": {
     "lint:js": "eslint .",
     "test": "run-s lint:*",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "precommit": "npm test"
   },
   "repository": {
     "type": "git",
