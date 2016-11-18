@@ -1,1 +1,9 @@
 language: node_js
+deploy:
+  provider: npm
+  email: npm@travi.org
+  api_key:
+    secure: 49o2CwXHtxrbCWM/K9xxieuVmPMTHSYonxbe+QmL9hhZ9BMu7aIXDmnZuEpQklZMCMglds2OrBdbYRaUSdU4eMchqEuNgJ5f1WxMRRwEatSgmS7JRSTSUKkEhuqg/dnvy49Yqlkz4aQ4Y5w/lUdb/3lGLwaq3I38l6TUKEW2N6Q6hIkDuqJ3jJApq6F2KBDEaAdyN1PbeGh6v9D3gTPK2B+ebi6Ti9TbWmK4LsXszRX9Uyg6/tBIavbOkEXgtL1WmgcurfSkIW362YkE4rQvhe0v5JPhYMMRQd2s9VCj9wQTnF/HNR46XYt/niSCZ4dBTY2yAZ4Iy3jUwLmCio0uTR34GTYk1lzfskKZbuqY5W3BYiwT0aoasIoceCxrHX78h5jhqlfpbzvklKRQFCHxwbUnov7/cLupQjMfw7JpVjlSgmwE7k868HSVEr5JY2bifhCAZGnDFz6+chaTChKQvwwIGG2rIiewE+Hw5x1D+YHQgr2fiujvUePK4JA1iM9qzgHdw/q3czemUzTxPhDEp1Xe1tFEDjeBzqj02vnFsQKarvm7ClfBBXD0rjVQW8hzzGn7mRE+Vu2fh7sz9NuywqELiaFUp5HXnqcf6nhX2KNnmaQDUzAu2HKx/VKeO0oLS1mjpUmtU9usR5veDiAh0PQG2geaLtcXj0culgOMdhc=
+  on:
+    tags: true
+    repo: travi/ioc
