@@ -2,12 +2,12 @@
 
 extremely simple container that loosely aligns to IOC
 
-[![Build Status](https://img.shields.io/travis/travi/ioc.svg?style=flat)](https://travis-ci.org/travi/ioc)
-
 [![npm](https://img.shields.io/npm/v/@travi/ioc.svg?maxAge=2592000)](https://www.npmjs.com/package/@travi/ioc)
 [![license](https://img.shields.io/github/license/travi/ioc.svg)](LICENSE)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Build Status](https://img.shields.io/travis/travi/ioc.svg?style=flat)](https://travis-ci.org/travi/ioc)
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 ## Installation
 
@@ -20,7 +20,7 @@ $ npm install @travi/ioc -S
 ### Making an instance available through the container
 
 ```js
-import {add} from '@travi/ioc';
+import {register} from '@travi/ioc';
 
 const instance = factory();
 

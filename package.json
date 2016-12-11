@@ -2,7 +2,7 @@
   "name": "@travi/ioc",
   "license": "MIT",
   "description": "extremely simple container that loosely aligns to IOC",
-  "version": "0.1.1",
+  "version": "0.0.0-semantically-released",
   "main": "lib/ioc.cjs.js",
   "module": "lib/ioc.es.js",
   "scripts": {
@@ -11,24 +11,20 @@
     "test": "run-s lint:* tests:*",
     "build": "rollup -c",
     "preversion": "npm test",
-    "prepublish": "npm run build",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
-    "postpublish": "greenkeeper-postpublish"
+    "postpublish": "greenkeeper-postpublish",
+    "presemantic-release": "npm run build",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/travi/ioc.git"
-  },
+  "repository": "travi/ioc",
+  "bugs": "https://github.com/travi/ioc/issues",
+  "homepage": "https://github.com/travi/ioc#readme",
   "keywords": [
     "ioc",
     "inversion-of-control"
   ],
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
-  "bugs": {
-    "url": "https://github.com/travi/ioc/issues"
-  },
-  "homepage": "https://github.com/travi/ioc#readme",
   "devDependencies": {
     "@travi/any": "0.8.0",
     "@travi/eslint-config-travi": "0.3.0",
@@ -45,6 +41,7 @@
     "npm-run-all": "3.1.2",
     "rollup": "0.36.4",
     "rollup-plugin-babel": "2.6.1",
+    "semantic-release": "6.3.2",
     "validate-commit-msg": "2.8.2"
   },
   "config": {
