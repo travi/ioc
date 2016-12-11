@@ -1,6 +1,6 @@
 const dependencies = {};
 
-export function add(name, dependency) {
+export function register(name, dependency) {
     dependencies[name] = dependency;
 }
 

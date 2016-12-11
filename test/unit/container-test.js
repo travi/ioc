@@ -1,4 +1,4 @@
-import {add, use} from '../../src/container.js';
+import {register, use} from '../../src/container.js';
 import {assert} from 'chai';
 import any from '@travi/any';
 
@@ -8,7 +8,7 @@ suite('ioc container', () => {
             dependency = any.simpleObject(),
             name = any.string();
 
-        add(name, dependency);
+        register(name, dependency);
 
         assert.equal(use(name), dependency);
     });
