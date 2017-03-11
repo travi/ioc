@@ -1,9 +1,9 @@
 const dependencies = {};
 
 export function register(name, dependency) {
-    dependencies[name] = dependency;
+  dependencies[name] = dependency;
 }
 
 export function use(name) {
-    return dependencies[name];
+  return dependencies[name];
 }
