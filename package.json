@@ -34,7 +34,7 @@
     "chai": "4.0.2",
     "cz-conventional-changelog": "1.2.0",
     "greenkeeper-postpublish": "1.0.1",
-    "husky": "0.13.4",
+    "husky": "0.14.0",
     "mocha": "3.4.2",
     "npm-run-all": "4.0.2",
     "rollup": "0.42.0",
