@@ -1,5 +1,7 @@
 # ioc
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/ioc.svg)](https://greenkeeper.io/)
+
 extremely simple container that loosely aligns to IOC
 
 [![npm](https://img.shields.io/npm/v/@travi/ioc.svg?maxAge=2592000)](https://www.npmjs.com/package/@travi/ioc)
