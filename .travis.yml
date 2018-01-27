@@ -1,7 +1,7 @@
 language: node_js
 before_script:
 - npm run greenkeeper:update-lockfile
-- npm ls >/dev/null
+- npm ls --production >/dev/null
 after_script: npm run greenkeeper:upload-lockfile
 deploy:
   provider: script
