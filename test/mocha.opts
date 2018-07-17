@@ -1,2 +1,2 @@
 --ui tdd
---compilers jsx:babel-register
+--require babel-register
