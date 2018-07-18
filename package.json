@@ -11,6 +11,7 @@
     "test": "run-s lint:* tests:*",
     "build": "rollup -c",
     "preversion": "npm test",
+    "prepack": "run-s build",
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "presemantic-release": "npm run build",

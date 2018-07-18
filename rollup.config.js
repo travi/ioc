@@ -1,7 +1,7 @@
 import babel from 'rollup-plugin-babel';
 
 export default {
-  entry: 'src/container.js',
+  input: 'src/container.js',
   plugins: [
     babel({
       babelrc: false,
@@ -9,8 +9,8 @@ export default {
       presets: ['es2015-rollup']
     })
   ],
-  targets: [
-    {dest: 'lib/ioc.cjs.js', format: 'cjs'},
-    {dest: 'lib/ioc.es.js', format: 'es'}
+  output: [
+    {file: 'lib/ioc.cjs.js', format: 'cjs', sourcemap: true},
+    {file: 'lib/ioc.es.js', format: 'es', sourcemap: true}
   ]
 };
