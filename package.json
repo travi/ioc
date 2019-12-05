@@ -25,7 +25,7 @@
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "devDependencies": {
     "@babel/register": "^7.4.4",
-    "@travi/any": "2.0.6",
+    "@travi/any": "2.0.7",
     "@travi/babel-preset": "^3.0.0",
     "@travi/eslint-config-travi": "1.8.7",
     "babel-register": "6.26.0",
