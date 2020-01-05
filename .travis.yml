@@ -2,6 +2,6 @@ version: ~> 1.0
 notifications:
   email: false
 import:
-  - source: form8ion/.travsi-ci:node.yml
+  - source: form8ion/.travis-ci:node.yml
   - source: travis/.travis-ci:authenticated-semantic-release.yml
 before_script: npm ls >/dev/null
