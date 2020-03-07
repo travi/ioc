@@ -8,7 +8,7 @@
   "scripts": {
     "lint:js": "eslint .",
     "lint:peer": "npm ls >/dev/null",
-    "tests:unit": "mocha --recursive test/unit/",
+    "tests:unit": "mocha 'src/**/*-test.js'",
     "test": "run-s lint:* tests:*",
     "build": "rollup -c",
     "preversion": "npm test",
