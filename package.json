@@ -24,6 +24,7 @@
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "devDependencies": {
     "@babel/register": "7.18.9",
+    "@rollup/plugin-babel": "6.0.2",
     "@travi/any": "2.1.6",
     "@travi/babel-preset": "3.0.96",
     "@travi/eslint-config": "3.0.11",
@@ -35,8 +36,7 @@
     "husky": "8.0.1",
     "mocha": "10.1.0",
     "npm-run-all": "4.1.5",
-    "rollup": "2.79.1",
-    "rollup-plugin-babel": "4.4.0"
+    "rollup": "3.2.5"
   },
   "config": {
     "commitizen": {
@@ -45,6 +45,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {}
+  }
 }
