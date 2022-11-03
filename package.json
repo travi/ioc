@@ -8,11 +8,12 @@
   "scripts": {
     "lint:js": "eslint .",
     "lint:peer": "npm ls >/dev/null",
-    "tests:unit": "mocha 'src/**/*-test.js'",
-    "test": "run-s lint:* tests:*",
+    "test:unit": "mocha 'src/**/*-test.js'",
+    "test": "npm-run-all --print-label --parallel lint:* test:*",
     "build": "rollup -c",
     "preversion": "npm test",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "prepare": "husky install"
   },
   "repository": "travi/ioc",
   "bugs": "https://github.com/travi/ioc/issues",
