@@ -36,7 +36,7 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "mocha": "10.2.0",
-    "npm-run-all2": "5.0.0",
+    "npm-run-all2": "5.0.2",
     "rollup": "3.28.1"
   },
   "config": {
