@@ -37,7 +37,7 @@
     "husky": "8.0.3",
     "mocha": "10.2.0",
     "npm-run-all2": "6.0.6",
-    "rollup": "3.28.1"
+    "rollup": "3.29.0"
   },
   "config": {
     "commitizen": {
