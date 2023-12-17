@@ -1,6 +1,7 @@
 import {assert} from 'chai';
 import any from '@travi/any';
-import {register, use} from './container';
+
+import {register, use} from './container.js';
 
 suite('ioc container', () => {
   test('that dependencies are stored and are retrievable by name', () => {
