@@ -9,7 +9,7 @@
     "lint:js": "eslint .",
     "lint:peer": "npm ls >/dev/null",
     "test:unit": "mocha 'src/**/*-test.js'",
-    "test": "npm-run-all --print-label --parallel lint:* test:*",
+    "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
     "build": "rollup -c",
     "preversion": "npm test",
     "prepack": "npm run build",
