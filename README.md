@@ -21,8 +21,8 @@ extremely simple container that loosely aligns to IOC
 
 <!--consumer-badges start -->
 
-[![npm](https://img.shields.io/npm/v/@travi/ioc.svg?maxAge=2592000)](https://www.npmjs.com/package/@travi/ioc)
 [![license](https://img.shields.io/github/license/travi/ioc.svg)](LICENSE)
+[![npm][npm-badge]][npm-link]
 
 <!--consumer-badges end -->
 
@@ -63,3 +63,7 @@ const instance = use('instance-name');
 [semantic-release-badge]: https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release
 
 [slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
+
+[npm-link]: https://www.npmjs.com/package/@travi/ioc
+
+[npm-badge]: https://img.shields.io/npm/v/@travi/ioc?logo=npm
