@@ -5,14 +5,15 @@ extremely simple container that loosely aligns to IOC
 <!--status-badges start -->
 
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
+![SLSA Level 2][slsa-badge]
 
 <!--status-badges end -->
 
 <!--contribution-badges start -->
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Renovate][renovate-badge]][renovate-link]
+[![semantic-release: angular][semantic-release-badge]][semantic-release-link]
 
 <!--contribution-badges end -->
 
@@ -56,3 +57,9 @@ const instance = use('instance-name');
 [github-actions-ci-link]: https://github.com/travi/ioc/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
 
 [github-actions-ci-badge]: https://github.com/travi/ioc/workflows/Node.js%20CI/badge.svg
+
+[semantic-release-link]: https://github.com/semantic-release/semantic-release
+
+[semantic-release-badge]: https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release
+
+[slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
