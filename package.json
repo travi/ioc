@@ -1,8 +1,16 @@
 {
   "name": "@travi/ioc",
-  "license": "MIT",
   "description": "extremely simple container that loosely aligns to IOC",
+  "license": "MIT",
   "version": "0.0.0-semantically-released",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "repository": "travi/ioc",
+  "bugs": "https://github.com/travi/ioc/issues",
+  "homepage": "https://github.com/travi/ioc#readme",
+  "keywords": [
+    "ioc",
+    "inversion-of-control"
+  ],
   "main": "lib/ioc.cjs.js",
   "module": "lib/ioc.es.js",
   "scripts": {
@@ -16,14 +24,15 @@
     "prepare": "husky install",
     "lint:publish": "publint"
   },
-  "repository": "travi/ioc",
-  "bugs": "https://github.com/travi/ioc/issues",
-  "homepage": "https://github.com/travi/ioc#readme",
-  "keywords": [
-    "ioc",
-    "inversion-of-control"
-  ],
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "devDependencies": {
     "@babel/register": "7.22.15",
     "@rollup/plugin-babel": "6.0.4",
@@ -40,14 +49,5 @@
     "npm-run-all2": "6.1.1",
     "publint": "0.2.6",
     "rollup": "4.9.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
   }
 }
