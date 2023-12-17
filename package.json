@@ -14,10 +14,13 @@
   "main": "lib/ioc.cjs.js",
   "module": "lib/ioc.es.js",
   "scripts": {
+    "clean": "rimraf ./lib",
     "lint:js": "eslint .",
     "lint:peer": "npm ls >/dev/null",
     "test:unit": "mocha 'src/**/*-test.js'",
+    "pretest": "run-s build",
     "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
+    "prebuild": "run-s clean",
     "build": "rollup -c",
     "preversion": "npm test",
     "prepack": "npm run build",
@@ -48,6 +51,7 @@
     "mocha": "10.2.0",
     "npm-run-all2": "6.1.1",
     "publint": "0.2.6",
+    "rimraf": "5.0.5",
     "rollup": "4.9.0"
   }
 }
