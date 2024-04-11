@@ -45,7 +45,7 @@
     "@travi/eslint-config-mocha": "1.0.23",
     "babel-register": "6.26.0",
     "chai": "4.4.1",
-    "commitlint-config-travi": "1.4.49",
+    "commitlint-config-travi": "1.4.50",
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.0.11",
     "mocha": "10.4.0",
