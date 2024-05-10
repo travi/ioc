@@ -51,7 +51,7 @@
     "mocha": "10.4.0",
     "npm-run-all2": "6.1.2",
     "publint": "0.2.7",
-    "rimraf": "5.0.5",
+    "rimraf": "5.0.6",
     "rollup": "4.17.2"
   }
 }
