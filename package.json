@@ -40,7 +40,7 @@
     "@babel/register": "7.24.6",
     "@rollup/plugin-babel": "6.0.4",
     "@travi/any": "3.1.2",
-    "@travi/babel-preset": "3.0.130",
+    "@travi/babel-preset": "3.0.131",
     "@travi/eslint-config": "5.0.8",
     "@travi/eslint-config-mocha": "1.0.25",
     "babel-register": "6.26.0",
