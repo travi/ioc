@@ -52,6 +52,6 @@
     "npm-run-all2": "7.0.1",
     "publint": "0.2.12",
     "rimraf": "6.0.1",
-    "rollup": "4.27.2"
+    "rollup": "4.27.3"
   }
 }
